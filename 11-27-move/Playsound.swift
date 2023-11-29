@@ -11,7 +11,6 @@ import AVFoundation
 struct Playsound: View {
     @State var playAudio = true
     var body: some View {
-        Text("German lady trying to wake you up")
         Button(action: {
             if playAudio {
                 playSound(sound: "EineLotta- German Girl Alarm Clock", type: "mp3")
@@ -20,7 +19,7 @@ struct Playsound: View {
             }
             playAudio.toggle()
         }, label: {
-            Text(playAudio ? "Play audio" : "Stop audio")
+            Text(playAudio ? "Play German lady trying to wake you up (gets very loud)" : "Stop audio")
         })
     }
 }
