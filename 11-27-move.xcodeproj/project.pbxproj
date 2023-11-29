@@ -11,6 +11,11 @@
 		EDFFF5E62B16F005006C0611 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFFF5E52B16F005006C0611 /* ContentView.swift */; };
 		EDFFF5E82B16F006006C0611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFFF5E72B16F006006C0611 /* Assets.xcassets */; };
 		EDFFF5EC2B16F006006C0611 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFFF5EB2B16F006006C0611 /* Preview Assets.xcassets */; };
+		EDFFF5F32B17021C006C0611 /* Playsound.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFFF5F22B17021C006C0611 /* Playsound.swift */; };
+		EDFFF5F62B170603006C0611 /* VideoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFFF5F52B170603006C0611 /* VideoApp.swift */; };
+		EDFFF5F82B170B9A006C0611 /* val.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EDFFF5F42B17036F006C0611 /* val.mp4 */; };
+		EDFFF5F92B170B9E006C0611 /* funny.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EDFFF5F72B1709F2006C0611 /* funny.mp4 */; };
+		EDFFF5FF2B170F5E006C0611 /* EineLotta- German Girl Alarm Clock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EDFFF5FE2B170F5E006C0611 /* EineLotta- German Girl Alarm Clock.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		EDFFF5E72B16F006006C0611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDFFF5E92B16F006006C0611 /* _1_27_move.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = _1_27_move.entitlements; sourceTree = "<group>"; };
 		EDFFF5EB2B16F006006C0611 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EDFFF5F22B17021C006C0611 /* Playsound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playsound.swift; sourceTree = "<group>"; };
+		EDFFF5F42B17036F006C0611 /* val.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = val.mp4; path = ../../../Downloads/val.mp4; sourceTree = "<group>"; };
+		EDFFF5F52B170603006C0611 /* VideoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoApp.swift; sourceTree = "<group>"; };
+		EDFFF5F72B1709F2006C0611 /* funny.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = funny.mp4; path = ../../../Downloads/funny.mp4; sourceTree = "<group>"; };
+		EDFFF5FE2B170F5E006C0611 /* EineLotta- German Girl Alarm Clock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "EineLotta- German Girl Alarm Clock.mp3"; path = "../../../Desktop/EineLotta- German Girl Alarm Clock.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +64,14 @@
 			children = (
 				EDFFF5E32B16F005006C0611 /* _1_27_moveApp.swift */,
 				EDFFF5E52B16F005006C0611 /* ContentView.swift */,
+				EDFFF5F72B1709F2006C0611 /* funny.mp4 */,
+				EDFFF5FE2B170F5E006C0611 /* EineLotta- German Girl Alarm Clock.mp3 */,
+				EDFFF5F42B17036F006C0611 /* val.mp4 */,
 				EDFFF5E72B16F006006C0611 /* Assets.xcassets */,
 				EDFFF5E92B16F006006C0611 /* _1_27_move.entitlements */,
 				EDFFF5EA2B16F006006C0611 /* Preview Content */,
+				EDFFF5F22B17021C006C0611 /* Playsound.swift */,
+				EDFFF5F52B170603006C0611 /* VideoApp.swift */,
 			);
 			path = "11-27-move";
 			sourceTree = "<group>";
@@ -127,7 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDFFF5F92B170B9E006C0611 /* funny.mp4 in Resources */,
+				EDFFF5F82B170B9A006C0611 /* val.mp4 in Resources */,
 				EDFFF5EC2B16F006006C0611 /* Preview Assets.xcassets in Resources */,
+				EDFFF5FF2B170F5E006C0611 /* EineLotta- German Girl Alarm Clock.mp3 in Resources */,
 				EDFFF5E82B16F006006C0611 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDFFF5E62B16F005006C0611 /* ContentView.swift in Sources */,
+				EDFFF5F62B170603006C0611 /* VideoApp.swift in Sources */,
 				EDFFF5E42B16F005006C0611 /* _1_27_moveApp.swift in Sources */,
+				EDFFF5F32B17021C006C0611 /* Playsound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
